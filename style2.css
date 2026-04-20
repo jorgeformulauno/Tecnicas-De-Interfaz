@@ -164,7 +164,7 @@ body{
     display: flex;
     gap: 30px;
     align-items: stretch;
-    padding: 50px 170px;
+    padding: 50px 175px;
     background-color: lightgray;
 }
 
@@ -206,6 +206,82 @@ article h2 {
     height: 200px;
 }
 
+.linea-con-codigo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 10px;
+}
+
+.linea-con-icono img{
+    width: 50px;
+}
+
+.linea-con-icono hr{
+    flex: 1;
+    border: none;
+    background-color: antiquewhite;
+    height: 2px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+
+footer > div{
+    flex: 1;
+    min-width: 200px;
+}
+
+.info-legal{
+    flex: 1 1 100%;
+    border-top: 1px solid lightgray;
+    padding: 20px;
+}
+
+.info-legal p{
+    margin-bottom: 8px;
+}
+
+h3{
+    color: #5004DE;
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+footer span{
+    display:  block;
+    margin-bottom: 8px;
+}
+
+.copyright-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.copyright-row img{
+    max-width: 300px;
+    height: auto;
+}
+
+input[type=email]{
+    width: 250px;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 12px 16px;
+}
+
+input[type=submit]{
+    background-color: #5004DE;
+    color: white;
+    font-size: 12px;
+    border: none;
+}
 
 
 
