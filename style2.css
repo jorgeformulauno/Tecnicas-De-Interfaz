@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+#info-encabezado {
+    background-color: #180344;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#info-general{
+    background-color: #5004DE;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#info-general img{
+    width: 50px;
+}
+
+#buscar{
+    max-width: 400px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+#ingresar{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #5004DE;
+    color: white;
+    border: none;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul{
+    display: flex;
+    background-color: rgb(192, 192, 192);
+}
+
+nav > ul > li{
+    position: relative;
+    padding: 15px 20px;
+    color: black;
+    cursor: pointer;
+}
+
+nav >ul>li:hover{
+    background-color:  gray;
+}
+
+nav ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: gray;
+    min-width: 150px;
+}
+
+nav ul ul li{
+    color: black;
+    padding: 10px;
+}
+
+nav ul li:hover>ul{
+    display: block;
+}
+
+nav ul ul li:hover{
+    background-color: lightgray;
+}
+
+header,nav{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header{
+    top: 0;
+}
+
+nav{
+    top: 100px;
+}
+
+body{
+    margin-top: 140px;
+}
+
+#banner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#banner img{
+    width: 100%;
+    max-width: 12000px;
+    border-radius: 10px;
+}
+
+#mascotas{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    gap: 20px;
+    width: 100%;
+}
+
+#perro{
+    background-color: rgb(206, 206, 0);
+    border-radius: 10px;
+}
+
+#gato{
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+#perro,#gato{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 47%;
+    height: 350px;
+    border-radius: 12px;
+}
+
+#perro img, #gato img{
+    width: auto; 
+    max-height: 90%
+}
+
+.parrafo{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.caja{
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
+    padding: 50px 170px;
+    background-color: lightgray;
+}
+
+
+article h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #6d2cff;
+    margin-bottom: 5px;
+    padding: auto;
+}
+
+#parrafo-articulo{
+    text-align: justify;
+    font-size: 15px;
+}
+
+.caja-imagenes, article {
+    flex:1;
+}
+
+.caja-imagenes{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap ;
+    height: auto;
+   
+}
+
+.caja-imagenes img{
+    flex: 1 1 cal(50% - 10px);
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.grande{
+    flex: 1 1 100%;
+    height: 200px;
+}
+
+
+
+
+
